@@ -9,14 +9,14 @@ This project was done as part of a homework in the CSC448 Statistical Speech and
 
 1. To run the sample test case given in the out.out file, please execute the following command:
 ```
-python3 hw1.py cat_weights cat_data testcase
+python3 pos-viterbi.py cat_weights cat_data testcase
 ```
 Here, cat_weights and cat_data are input files. The 'testcase' argument makes sure that the output is properly formatted.
 
 
 2. To find the performance on the train.weight and test files, please execute the following command:
 ```
-python3 hw1.py train.weights test
+python3 pos-viterbi.py train.weights test
 ```
 Here, no 'testcase' argument is needed.
 
